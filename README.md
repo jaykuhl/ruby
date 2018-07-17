@@ -1,3 +1,3 @@
 # ruby
 
-puts "baby in corner"
+Learning to Puts and Gets.

@@ -1,3 +1,3 @@
 # ruby
 
-puts My Ruby Repo
+puts "baby in corner"

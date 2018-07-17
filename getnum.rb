@@ -15,3 +15,10 @@ puts "Get money"
 # further is messed up.
 
 #who dis?
+
+=begin
+this is a comment.
+blah.
+blah.
+blah blah blah.
+=end

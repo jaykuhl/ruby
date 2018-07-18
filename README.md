@@ -1,3 +1,3 @@
-# ruby
+# Ruby
 
-Learning to Puts and Gets.
+Learning Puts and Gets.

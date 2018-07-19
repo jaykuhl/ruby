@@ -1,18 +1,12 @@
 class MotorVehicle
-
-  attr_accessor :make, :carline, :VIN, :rego, :floorplan_value
-  def init(make, carline, VIN, rego, floorplan_value)
+  attr_accessor :make, :carline, :vin, :rego, :floorplanvalue
+  def initialize(make, carline, vin, rego, floorplanValue)
     @make = make
     @carline = carline
-    @VIN = VIN
+    @vin = vin
     @rego = rego
-    @floorplan_value = floorplan_value
+    @floorplanValue = floorplanValue
   end
 end
 
-motorvehicle1 = MotorVehicle.new()
-motorvehicle1.make = "Ford"
-motorvehicle1.carline = "Focus"
-motorvehicle1.VIN = "GHA4567A901R345"
-
-puts
+motorvehicle1 = MotorVehicle.new("Ford","Focus","1231232131231","123ABC",18950.12)
